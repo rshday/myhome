@@ -6,12 +6,13 @@
     position: absolute;
     height: auto;
     width: auto;
-    left: 40%;
+    left: 45%;
     top: 5%;
 }
+
 .button {
     width:300px;
-    background-color: #f8585b;
+    background-color: #2567D5;
     border: none;
     color:#fff;
     padding: 10px 0;
@@ -24,12 +25,15 @@
     font-family: "Times New Roman";
     text-align: center;
 }
+.search{
+  margin-left: 350px;
+}
 .sch-button {
     width:80px;
-    background-color: #f8585b;
+    background-color: #2567D5;
     border: none;
     color:#fff;
-    padding: 5px 0;
+    padding: 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
