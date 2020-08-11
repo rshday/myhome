@@ -1,18 +1,62 @@
-.top {color: #1D79DE; text-align: center; font-size: 50; font-family: "Times New Roman";}
-.ctcon {color: black; text-align: center; font-size: 25; font-family: "Times New Roman";}
+.top {
+    color: #1D79DE;
+    text-align: center;
+    font-size: 50;
+    font-family: "Times New Roman";
+    position: absolute;
+    height: auto;
+    width: auto;
+    left: 40%;
+    top: 5%;
+}
 .button {
-    width:100px;
+    width:300px;
     background-color: #f8585b;
     border: none;
     color:#fff;
-    padding: 15px 0;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 15px;
+    margin: -3px;
+    cursor: pointer;
+    font-family: "Times New Roman";
+    text-align: center;
+}
+.sch-button {
+    width:80px;
+    background-color: #f8585b;
+    border: none;
+    color:#fff;
+    padding: 5px 0;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 15px;
-    margin: 4px;
+    font-size: 5px;
+    margin: 2px;
     cursor: pointer;
     border-radius:10px;
     font-family: "Times New Roman";
     text-align: center;
+}
+.topmenu{
+  position: absolute;
+  height: auto;
+  width: auto;
+  left: 3%;
+  right: 3%;
+  top: 15%;
+}
+.midcont{
+  position: absolute;
+  height: auto;
+  width: auto;
+  left: 3%;
+  right: 3%;
+  top: 20%;
+  color: black;
+  text-align: center;
+  font-size: 25;
+  font-family: "Times New Roman";
 }
