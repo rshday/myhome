@@ -1,0 +1,18 @@
+.top {color: #1D79DE; text-align: center; font-size: 50; font-family: "Times New Roman";}
+.ctcon {color: black; text-align: center; font-size: 25; font-family: "Times New Roman";}
+.button {
+    width:100px;
+    background-color: #f8585b;
+    border: none;
+    color:#fff;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius:10px;
+    font-family: "Times New Roman";
+    text-align: center;
+}
