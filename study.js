@@ -1,7 +1,8 @@
-var str = "text";
+'use strict'
+let str = "text";
 
 function logo_click() {
-  document.getElementById('logo').innerHTML = "PAPAO";
+  document.getElementsByClassName('logo').innerHTML = "PAPAO";
   window.location.href = window.location.href;
 }
 
