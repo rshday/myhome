@@ -1,7 +1,7 @@
 .top {
     color: #1D79DE;
     text-align: center;
-    font-size: 50;
+    font-size: 50px;
     font-family: "Times New Roman";
     height: auto;
     width: auto;
@@ -12,7 +12,17 @@
     padding-bottom: 5%;
     background-color: #FFFFFF;
 }
-
+.logo {
+    color: #1D79DE;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Times New Roman";
+    height: auto;
+    width: auto;
+    background-color: #FFFFFF;
+    border: 0;
+    outline: 0;
+}
 .button {
     width:15%;
     background-color: #2567D5;
@@ -27,6 +37,8 @@
     cursor: pointer;
     font-family: "Times New Roman";
     text-align: center;
+    border: 0;
+    outline: 0;
 }
 .search{
   margin-left: 15%;
@@ -54,11 +66,21 @@
   background-color: #FFFFFF;
 }
 .midcont{
+  background-color: #FFFFFF;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 0%;
+  padding-bottom: 5%;
   color: black;
-  text-align: center;
-  font-size: 25;
+  text-align:left;
+  font-size: 20px;
   font-family: "Times New Roman";
 }
 .bodys{
   background-color: #F4F4F4;
+}
+#contens{
+  padding-top: 2%;
+  margin: 3%
 }

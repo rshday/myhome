@@ -1,10 +1,13 @@
+<!DOCTYPE html>
 <html>
   <meta charset = "utf-8">
   <link rel= "stylesheet" type="text/css" href="csfile.css">
   <script src="study.js"></script>
   <head>
 		<div class="top">
-			Rsh Home
+      <button id="logo" class="logo" onclick="logo_click();">
+        PAPAO
+      </button>
       <a class="search">
         <input>
         <button class="sch-button">검색</button>
@@ -12,10 +15,10 @@
       </a>
     </div>
   </head>
-  <body = class="bodys">
+  <body class="bodys">
     <div class="topmenu">
       <button class="button" onclick="button1_click();">공지사항</button>
-      <button class="button">소개</button>
+      <button class="button" onclick="button1_click2();">소개</button>
       <button class="button">뉴스</button>
       <button class="button">게시판</button>
       <button class="button">질문</button>
@@ -23,11 +26,7 @@
     </div>
 
     <div class="midcont">
-      <p>
-          <script>
-            document.write(str);
-          </script>
-      </p>
+      <p id="contens">기본 값</p>
     </div>
 
   </body>
