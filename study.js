@@ -1,20 +1,19 @@
 'use strict'
-let str = "text";
 
-function logo_click() {
-  document.getElementsByClassName('logo').innerHTML = "PAPAO";
-  window.location.href = window.location.href;
-}
+const btn = document.querySelector(".btn");
+btn.addEventListener("click",btnclick);
 
-
-function button1_click(){
-  document.getElementById('contens').innerHTML
-  ="안녕하세요. 파파오입니다.<br/>"
-+"파파오 서비스를 이용해 주시는 회원 여러분께 감사드리며, 운영정책 변경에 관해 안내 말씀 드립니다</br>"
-}
-function button1_click2() {
-  document.getElementById('contens').innerHTML
-  ="안녕하세요.<br/>"
-  +"나의 소개를 합니다.<br/>"
-  +"감사합니다.";
+function btnclick() {
+  if(btn.innerHTML === "btn")
+  {
+    btn.innerHTML=`
+    btn
+    <div id="box">
+    이런건 어떡하면 만들수 있지?
+    </div>
+    `
+  }
+  else{
+    btn.innerHTML="btn";
+  }
 }
