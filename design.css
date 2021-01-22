@@ -43,7 +43,7 @@ a {
   flex-direction: row;
   justify-content: center;
   padding: 8%;
-  background: url("https://cdn.wallpapersafari.com/93/96/MeDBzR.jpg");
+  background: url("./src/MeDBzR.jpg");
   background-size: cover;
 }
 
