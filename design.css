@@ -1,68 +1,90 @@
-#color{
-  color: #152F40;
-  color: #A2A638;
-  color: #555673;
-  color: #4E84A6;
-  color: #99D9F2;
-}
-body{
-  margin:0;
-  padding:0;
-}
-
-.container{
-  background-color: white;
-  display: grid;
-  grid-template-columns: 20% 1fr;
-  grid-template-rows: 100px 1fr 100px;
-  height: 100vh;
-  grid-gap: 20px;
-  grid-template-areas:
-  "header header"
-  "side main"
-  "footer footer";
-}
-
-.header{
-  grid-area: header;
-  background-color: #152F40;
-  text-align: center;
-  padding-top: 2vh;
-  color: azure;
-  font-size: 2em;
-}
-
-.side{
-  grid-area: side;
-  background-color: #555673;
-}
-
-.main{
-  grid-area: main;
-  background-color: #555673;
-}
-
-.footer{
-  grid-area: footer;
-  background-color: #99D9F2;
-}
-
-.menu{
-  margin: 15px;
-  margin-top: 10%;
-  border: 1px solid black;
-  color: black;
-  background-color: aliceblue;
-  height: 5%;
-  text-align: center;
+body {
+  margin: 0;
   padding: 0;
-  padding-top:5%;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: x-large;
+  color: rgb(34, 34, 34);
 }
 
-#box{
-  display: inline;
-  border: 5px solid brown;
-  position: absolute;
-  top:50%;
-  left:50%;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 8px 12px;
+}
+
+.navbar-logo {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar__menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.navbar__menu li {
+  padding: 8px 72px;
+}
+.navbar__menu li:hover {
+  color: orange;
+}
+
+.navbar__lcons {
+  list-style: none;
+  color: white;
+}
+.inputBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 8%;
+  background: url("https://cdn.wallpapersafari.com/93/96/MeDBzR.jpg");
+  background-size: cover;
+}
+
+.inputBar input {
+  font-size: x-large;
+  width: 1000px;
+  height: 32px;
+  background-color: white;
+}
+
+.inputBar button {
+  font-weight: bold;
+  font-size: large;
+  background-color: white;
+  color: rgb(53, 50, 50);
+  width: 120px;
+  height: 40px;
+  border-radius: 15px;
+  margin-left: 2%;
+}
+
+.eventFeild {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: azure;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar__menu {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .navbar__menu li {
+    width: 100%;
+    text-align: center;
+  }
 }
